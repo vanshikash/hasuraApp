@@ -1,0 +1,29 @@
+{
+  "name": "nodeasur",
+  "version": "1.0.0",
+  "description": "App using hasura built with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arushsharma24/hasuraApp.git"
+  },
+  "keywords": [
+    "hasura",
+    "node",
+    "graphql",
+    "gql",
+    "express"
+  ],
+  "author": "Arush Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arushsharma24/hasuraApp/issues"
+  },
+  "homepage": "https://github.com/arushsharma24/hasuraApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
