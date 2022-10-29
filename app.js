@@ -12,7 +12,7 @@ app.use(cookieParser());
 
 app.use(express.static('public'));
 app.get('/', function (req, res) {
-    res.sendFile('C:/Users/Vanshika Sharma/hasuraApp/public/index.html');
+    res.sendFile('public/index.html');
   })
 
 
