@@ -2,7 +2,7 @@ const { Router } = require('express');
 const { show_menu } = require("../controllers/menuController");
 
 const router = Router();
-router.get('/', (req, res) => {
+router.get('/pika', (req, res) => {
     console.log("Check pika");
     res.json({ message: 'Pika Pika' });
 })

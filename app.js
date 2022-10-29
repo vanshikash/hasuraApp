@@ -10,6 +10,11 @@ app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
+app.use(express.static('public'));
+app.get('/', function (req, res) {
+    res.sendFile('C:/Users/Vanshika Sharma/hasuraApp/public/index.html');
+  })
+
 
 // const { Router } = require("express")
 const router = express.Router();
