@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
 app.use(express.static('public'));
-app.get('/', function (req, res) {
+app.get('/image', function (req, res) {
     res.sendFile('public/index.html');
   })
 
